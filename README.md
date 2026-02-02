@@ -17,6 +17,8 @@ Includes basic JavaScript form validation.
 
 ### JavaScript Examples
 Small standalone JS files demonstrating logic and DOM manipulation.
+Note: The contact form demonstrates frontend validation and UX feedback.
+No backend or database connection is implemented.
 
 ### Python Script
 Basic automation example for data processing.
