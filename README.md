@@ -14,11 +14,12 @@ to demonstrate my practical skills in web development.
 ### Landing Page
 A responsive landing page for a fictional small business.
 Includes basic JavaScript form validation.
+Note: The contact form demonstrates frontend validation and UX feedback.
+No backend or database connection is implemented.
 
 ### JavaScript Examples
 Small standalone JS files demonstrating logic and DOM manipulation.
-Note: The contact form demonstrates frontend validation and UX feedback.
-No backend or database connection is implemented.
+
 
 ### Python Script
 Basic automation example for data processing.
