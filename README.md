@@ -53,9 +53,3 @@ https://www.mayafiddler.com
 
 ## 👩‍💻 About Me
 Web Developer and WordPress Expert based in Germany.
-## 🌐 Live Projects
-You can find real-world client projects here:
-https://www.mayafiddler.com
-
-## 👩‍💻 About Me
-Web Developer & WordPress Expert based in Germany.
