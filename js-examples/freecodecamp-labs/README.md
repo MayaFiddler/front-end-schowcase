@@ -14,8 +14,9 @@ and consistency with real-world coding practices.
 
 ## Files
 
-### js01-sum-array.js
-Sums values in an array using iteration and basic logic.
+### favorite-icon-toggle.js
+A simple interactive feature that toggles a favorite (icon) state.
+Demonstrates event handling, state changes, and DOM class manipulation.
 
 ### js02-object-iterations.js
 Iterates over object properties and values.
