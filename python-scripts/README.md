@@ -1,45 +1,102 @@
-# Python Scripts
+# CS50 Python Problem Sets (CS50p)
 
-This folder contains Python practice files demonstrating **automation, data processing, and algorithmic problem-solving**.  
+This folder contains my solutions to exercises from **CS50p – Introduction to Programming with Python** (Harvard University).
 
-It is part of my **Frontend & Scripting Showcase**, highlighting my programming skills beyond frontend development.
-
----
-
-## 📂 Folder Structure
-
-- **[automation/](./automation/)** – Small Python scripts demonstrating automation and basic data processing logic.  
-  Example: [example-automation.py](./automation/example-automation.py)
-
-- **[cs50-exercises/](./cs50-exercises/)** – Python exercises completed as part of the **CS50 Introduction to Computer Science** course.  
-  Focuses on loops, conditionals, string manipulation, and algorithms.
+The focus of these problem sets is on **Python fundamentals, clean logic, and problem-solving**, rather than building full applications.
 
 ---
 
-## 🐍 CS50 Python Exercises
+## 🐍 Problem Sets & Exercises
 
-| File | Description | Skills Demonstrated |
-|------|-------------|------------------|
-| [mario.py](./cs50-exercises/mario.py) | Prints a console-based pyramid of a specified height | Loops, conditional logic, string manipulation |
-| [cash.py](./cs50-exercises/cash.py) | Calculates the minimum number of coins needed to give change | Arithmetic operations, loops, greedy algorithms |
-| [readability.py](./cs50-exercises/readability.py) | Estimates the readability level of a block of text | Text processing, string operations, functions |
-| [caesar.py](./cs50-exercises/caesar.py) | Implements the Caesar cipher for encrypting messages | Character encoding, loops, input validation |
-| [vigenere.py](./cs50-exercises/vigenere.py) | Implements the Vigenère cipher for encrypting messages using a keyword | Modular arithmetic, loops, string indexing, cipher algorithms |
+### PSet 0 – Functions & Variables
+| File | Description |
+|-----|-------------|
+| [hello.py](./hello.py) | Prints a greeting to the user |
+| [playback.py](./playback.py) | Slows down user input output |
+| [indoor.py](./indoor.py) | Converts text to lowercase |
 
-> Each script is well-documented with comments explaining the logic and thought process.
+---
+
+### PSet 1 – Conditionals
+| File | Description |
+|-----|-------------|
+| [deep.py](./deep.py) | Responds to the “Answer to the Great Question” |
+| [home.py](./home.py) | Determines meal time based on input |
+| [extensions.py](./extensions.py) | Determines file type based on extension |
+
+---
+
+### PSet 2 – Loops
+| File | Description |
+|-----|-------------|
+| [camel.py](./camel.py) | Converts camelCase to snake_case |
+| [coke.py](./coke.py) | Simulates a vending machine transaction |
+| [nutrition.py](./nutrition.py) | Looks up nutritional values for fruits |
+
+---
+
+### PSet 3 – Exceptions
+| File | Description |
+|-----|-------------|
+| [fuel.py](./fuel.py) | Converts fractions to fuel gauge percentages |
+
+---
+
+### PSet 4 – Libraries
+| File | Description |
+|-----|-------------|
+| [emojize.py](./emojize.py) | Converts text aliases to emojis |
+| [adieu.py](./adieu.py) | Formats a farewell message using a library |
+
+---
+
+### PSet 5 – File I/O
+| File | Description |
+|-----|-------------|
+| [lines.py](./lines.py) | Counts lines of code in a Python file |
+| [pizza.py](./pizza.py) | Reads CSV data and outputs formatted tables |
+
+---
+
+### PSet 6 – Regular Expressions
+| File | Description |
+|-----|-------------|
+| [watch.py](./watch.py) | Extracts YouTube embed links using regex |
+
+---
+
+### PSet 7 – Object-Oriented Programming
+| File | Description |
+|-----|-------------|
+| [jar.py](./jar.py) | Implements a cookie jar class with validation |
 
 ---
 
 ## 💡 Notes
 
-- These scripts demonstrate foundational Python skills, problem-solving, and algorithmic thinking.  
-- They complement my frontend projects by showcasing versatility in both **web development** and **programming logic**.  
-- More automation and Python exercises will be added over time to further showcase scripting skills.
+- All files include **docstrings (`""" """`)** explaining their purpose.
+- Exercises demonstrate:
+  - Variables and functions
+  - Conditionals and loops
+  - String manipulation
+  - Exception handling
+  - File input/output
+  - Regular expressions
+  - Basic object-oriented programming
+- This folder is part of my **Frontend & Scripting Showcase** and complements my frontend projects with backend-oriented logic.
 
 ---
 
-## ⚡ Next Steps
+## 📚 About CS50p
 
-- Expand the **automation** folder with small, practical Python scripts.  
-- Continue solving algorithmic chal
+CS50p is Harvard’s introduction to programming using Python.  
+It focuses on building strong foundations in programming logic and problem-solving using real-world inspired exercises.
+
+---
+
+## 🚀 Next Steps
+
+- Add small Python automation scripts
+- Apply Python logic to real-world data processing tasks
+- Continue combining frontend development with scripting skills
 
