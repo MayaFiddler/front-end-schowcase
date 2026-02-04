@@ -1,43 +1,101 @@
-# CS50 Python Exercises
+# CS50 Python Problem Sets (CS50p)
 
-This folder contains Python exercises completed as part of **CS50 – Introduction to Computer Science**.
+This folder contains my solutions to exercises from **CS50p – Introduction to Programming with Python** (Harvard University).
 
-The goal of these exercises is to demonstrate **algorithmic thinking, problem-solving skills, and Python fundamentals**, rather than building full applications.
+The focus of these problem sets is on **Python fundamentals, clean logic, and problem-solving**, rather than building full applications.
 
 ---
 
-## 🐍 Exercises Overview
+## 🐍 Problem Sets & Exercises
 
-| File | Description | Key Concepts |
-|------|-------------|--------------|
-| [mario.py](./mario.py) | Prints a pyramid of a specified height in the console | Loops, conditionals, string formatting |
-| [cash.py](./cash.py) | Calculates the minimum number of coins needed for change | Arithmetic, loops, greedy algorithms |
-| [readability.py](./readability.py) | Estimates the reading grade level of a text | String processing, functions, logic |
-| [caesar.py](./caesar.py) | Encrypts text using the Caesar cipher | Character encoding, modular arithmetic |
-| [vigenere.py](./vigenere.py) | Encrypts text using the Vigenère cipher | String indexing, loops, cryptography basics |
+### PSet 0 – Functions & Variables
+| File | Description |
+|-----|-------------|
+| [hello.py](./hello.py) | Prints a greeting to the user |
+| [playback.py](./playback.py) | Slows down user input output |
+| [indoor.py](./indoor.py) | Converts text to lowercase |
+
+---
+
+### PSet 1 – Conditionals
+| File | Description |
+|-----|-------------|
+| [deep.py](./deep.py) | Responds to the “Answer to the Great Question” |
+| [home.py](./home.py) | Determines meal time based on input |
+| [extensions.py](./extensions.py) | Determines file type based on extension |
+
+---
+
+### PSet 2 – Loops
+| File | Description |
+|-----|-------------|
+| [camel.py](./camel.py) | Converts camelCase to snake_case |
+| [coke.py](./coke.py) | Simulates a vending machine transaction |
+| [nutrition.py](./nutrition.py) | Looks up nutritional values for fruits |
+
+---
+
+### PSet 3 – Exceptions
+| File | Description |
+|-----|-------------|
+| [fuel.py](./fuel.py) | Converts fractions to fuel gauge percentages |
+
+---
+
+### PSet 4 – Libraries
+| File | Description |
+|-----|-------------|
+| [emojize.py](./emojize.py) | Converts text aliases to emojis |
+| [adieu.py](./adieu.py) | Formats a farewell message using a library |
+
+---
+
+### PSet 5 – File I/O
+| File | Description |
+|-----|-------------|
+| [lines.py](./lines.py) | Counts lines of code in a Python file |
+| [pizza.py](./pizza.py) | Reads CSV data and outputs formatted tables |
+
+---
+
+### PSet 6 – Regular Expressions
+| File | Description |
+|-----|-------------|
+| [watch.py](./watch.py) | Extracts YouTube embed links using regex |
+
+---
+
+### PSet 7 – Object-Oriented Programming
+| File | Description |
+|-----|-------------|
+| [jar.py](./jar.py) | Implements a cookie jar class with validation |
 
 ---
 
 ## 💡 Notes
 
-- Each file includes a **docstring (`""" """`) at the top** explaining the purpose of the script.
-- The exercises focus on **core programming concepts** such as:
-  - Loops and conditionals
+- All files include **docstrings (`""" """`)** explaining their purpose.
+- Exercises demonstrate:
+  - Variables and functions
+  - Conditionals and loops
   - String manipulation
-  - Input validation
-  - Algorithmic problem-solving
-- These scripts are included as part of a broader **Frontend & Scripting Showcase** to demonstrate versatility beyond frontend development.
+  - Exception handling
+  - File input/output
+  - Regular expressions
+  - Basic object-oriented programming
+- This folder is part of my **Frontend & Scripting Showcase** and complements my frontend projects with backend-oriented logic.
 
 ---
 
-## 📚 About CS50
+## 📚 About CS50p
 
-CS50 is an introductory computer science course by **Harvard University**, covering foundational topics such as algorithms, data structures, and programming principles.
+CS50p is Harvard’s introduction to programming using Python.  
+It focuses on building strong foundations in programming logic and problem-solving using real-world inspired exercises.
 
 ---
 
 ## 🚀 Next Steps
 
-- Continue adding Python practice and small automation scripts.
-- Apply learned concepts to real-world problems and projects.
-- Expand scripting skills alongside frontend development work.
+- Add small Python automation scripts
+- Apply Python logic to real-world data processing tasks
+- Continue combining frontend development with scripting skills
