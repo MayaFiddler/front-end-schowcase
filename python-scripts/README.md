@@ -1,102 +1,77 @@
-# CS50 Python Problem Sets (CS50p)
+# Python Scripts
 
-This folder contains my solutions to exercises from **CS50p – Introduction to Programming with Python** (Harvard University).
+This folder contains Python practice files focusing on **programming fundamentals, problem-solving, and basic automation**.
 
-The focus of these problem sets is on **Python fundamentals, clean logic, and problem-solving**, rather than building full applications.
-
----
-
-## 🐍 Problem Sets & Exercises
-
-### PSet 0 – Functions & Variables
-| File | Description |
-|-----|-------------|
-| [hello.py](./hello.py) | Prints a greeting to the user |
-| [playback.py](./playback.py) | Slows down user input output |
-| [indoor.py](./indoor.py) | Converts text to lowercase |
+It is part of my **Frontend & Scripting Showcase**, highlighting my ability to work with Python alongside frontend development.
 
 ---
 
-### PSet 1 – Conditionals
-| File | Description |
-|-----|-------------|
-| [deep.py](./deep.py) | Responds to the “Answer to the Great Question” |
-| [home.py](./home.py) | Determines meal time based on input |
-| [extensions.py](./extensions.py) | Determines file type based on extension |
+## 📂 Folder Structure
+
+- **[automation/](./automation/)**  
+  Small standalone Python scripts demonstrating basic automation and data-processing logic.  
+  Example: [example-automation.py](./automation/example-automation.py)
+
+- **[cs50-exercises/](./cs50-exercises/)**  
+  Exercises completed as part of **CS50p – Introduction to Programming with Python** (Harvard University).  
+  These files focus on Python fundamentals such as variables, conditionals, loops, functions, file I/O, and basic object-oriented programming.
 
 ---
 
-### PSet 2 – Loops
-| File | Description |
-|-----|-------------|
-| [camel.py](./camel.py) | Converts camelCase to snake_case |
-| [coke.py](./coke.py) | Simulates a vending machine transaction |
-| [nutrition.py](./nutrition.py) | Looks up nutritional values for fruits |
+## 🐍 CS50 Python Exercises (CS50p)
 
----
+The CS50p exercises are organized by topic and problem set, reflecting the structure of the course.
 
-### PSet 3 – Exceptions
-| File | Description |
-|-----|-------------|
-| [fuel.py](./fuel.py) | Converts fractions to fuel gauge percentages |
+### Functions & Variables
+- [hello.py](./cs50-exercises/hello.py) – User input and output
+- [playback.py](./cs50-exercises/playback.py) – String formatting
+- [indoor.py](./cs50-exercises/indoor.py) – String methods
 
----
+### Conditionals
+- [deep.py](./cs50-exercises/deep.py) – Conditional logic
+- [home.py](./cs50-exercises/home.py) – Time-based decisions
+- [extensions.py](./cs50-exercises/extensions.py) – File type detection
 
-### PSet 4 – Libraries
-| File | Description |
-|-----|-------------|
-| [emojize.py](./emojize.py) | Converts text aliases to emojis |
-| [adieu.py](./adieu.py) | Formats a farewell message using a library |
+### Loops & Data Structures
+- [camel.py](./cs50-exercises/camel.py) – String transformation
+- [coke.py](./cs50-exercises/coke.py) – Loop-based user interaction
+- [nutrition.py](./cs50-exercises/nutrition.py) – Dictionary lookups
 
----
+### Exceptions
+- [fuel.py](./cs50-exercises/fuel.py) – Input validation and error handling
 
-### PSet 5 – File I/O
-| File | Description |
-|-----|-------------|
-| [lines.py](./lines.py) | Counts lines of code in a Python file |
-| [pizza.py](./pizza.py) | Reads CSV data and outputs formatted tables |
+### Libraries
+- [emojize.py](./cs50-exercises/emojize.py) – Using external libraries
+- [adieu.py](./cs50-exercises/adieu.py) – List handling and formatted output
 
----
+### File I/O
+- [lines.py](./cs50-exercises/lines.py) – File parsing and analysis
+- [pizza.py](./cs50-exercises/pizza.py) – Reading and processing CSV files
 
-### PSet 6 – Regular Expressions
-| File | Description |
-|-----|-------------|
-| [watch.py](./watch.py) | Extracts YouTube embed links using regex |
+### Regular Expressions
+- [watch.py](./cs50-exercises/watch.py) – Pattern matching with regex
 
----
+### Object-Oriented Programming
+- [jar.py](./cs50-exercises/jar.py) – Classes, methods, and validation
 
-### PSet 7 – Object-Oriented Programming
-| File | Description |
-|-----|-------------|
-| [jar.py](./jar.py) | Implements a cookie jar class with validation |
+> Each file includes a **docstring (`""" """`) at the top** describing its purpose and the concepts demonstrated.
 
 ---
 
 ## 💡 Notes
 
-- All files include **docstrings (`""" """`)** explaining their purpose.
-- Exercises demonstrate:
-  - Variables and functions
-  - Conditionals and loops
-  - String manipulation
-  - Exception handling
-  - File input/output
-  - Regular expressions
-  - Basic object-oriented programming
-- This folder is part of my **Frontend & Scripting Showcase** and complements my frontend projects with backend-oriented logic.
+- These scripts demonstrate **core Python programming skills** rather than production-ready applications.
+- Emphasis is placed on:
+  - Clean logic
+  - Readable code
+  - Correct handling of user input
+- The CS50p exercises complement my frontend work by showcasing backend-oriented thinking and scripting skills.
 
 ---
 
-## 📚 About CS50p
+## ⚡ Next Steps
 
-CS50p is Harvard’s introduction to programming using Python.  
-It focuses on building strong foundations in programming logic and problem-solving using real-world inspired exercises.
-
----
-
-## 🚀 Next Steps
-
-- Add small Python automation scripts
-- Apply Python logic to real-world data processing tasks
-- Continue combining frontend development with scripting skills
+- Add more small automation scripts
+- Apply Python logic to real-world data-processing tasks
+- Continue combining frontend development with Python scripting where appropriate
 
