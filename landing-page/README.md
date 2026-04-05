@@ -15,4 +15,4 @@ With my background in linguistics and education, I know that language learners o
 - **Accessibility:** Included a Dark/Light theme toggle to accommodate user visual preferences.
 
 ### 🚀 Live Demo
-[Insert Link to your live page here, e.g., via GitHub Pages or your Namecheap hosting]
+
