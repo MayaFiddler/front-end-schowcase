@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marian Hegedus | Frontend Showcase</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --primary-color: #2c3e50;
+            --card-bg: #ffffff;
+            --border-color: #e9ecef;
+            --accent-color: #3498db;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        /* Project Grid */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Project Cards */
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 25px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .card h2 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+
+        .tags {
+            margin-bottom: 15px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e8f4f8;
+            color: var(--accent-color);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            flex-grow: 1;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            border-top: 1px solid var(--border-color);
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Maya Fiddler (Marian Hegedus)</h1>
+        <p>Frontend Development Mini-Projects & Components</p>
+    </header>
+
+    <main>
+        <div class="intro">
+            <p>Welcome to my frontend sandbox! This repository is a collection of small components and UI experiments I build to practice core web technologies.</p>
+        </div>
+
+        <div class="project-grid">
+            
+            <!-- Project 1: SpeakClear -->
+            <div class="card">
+                <h2>SpeakClear AI</h2>
+                <div class="tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">Vanilla JS</span>
+                    <span class="tag">Web Speech API</span>
+                </div>
+                <p>A responsive landing page concept for an EdTech language-learning app. Features a working, browser-based voice transcription tool using the Web Speech API.</p>
+                <a href="speakclear-edtech/index.html" class="btn">View Live Demo &rarr;</a>
+            </div>
+
+            <!-- Project 2 Placeholder (You can add more later!) -->
+            <div class="card" style="border: 2px dashed #ccc; background-color: transparent; box-shadow: none;">
+                <h2 style="color: #888;">More Coming Soon</h2>
+                <p style="color: #888;">I am currently building more components as I continue my journey into React and Next.js.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>View my complete portfolio at <a href="https://mayafiddler.space" target="_blank">mayafiddler.space</a></p>
+        <p><a href="https://github.com/mayofiddler" target="_blank">Return to my GitHub Profile</a></p>
+    </footer>
+
+</body>
+</html>
